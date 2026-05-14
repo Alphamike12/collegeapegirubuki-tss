@@ -33,8 +33,9 @@ function ContactPage() {
       <section className="container-x py-20 grid md:grid-cols-5 gap-12">
         <div className="md:col-span-2 space-y-8">
           <Info label="Address" lines={["College Apegirubuki TSS", "Rutare Sector", "Gicumbi District", "Northern Province, Rwanda"]} />
+          <Info label="Phone" lines={["+250 785 082 307", "Manager: Maniriho Jean de Dieu"]} />
+          <Info label="Email" lines={["apegirubuki10@yahoo.com"]} />
           <Info label="School Office" lines={["Open Mon – Fri", "08:00 – 17:00 CAT"]} />
-          <Info label="Admissions" lines={["admissions@apegirubuki.rw", "(Replace with official email)"]} />
         </div>
         <form
           onSubmit={(e) => { e.preventDefault(); setSent(true); }}
