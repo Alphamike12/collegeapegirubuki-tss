@@ -82,6 +82,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "College Apegirubuki TSS — Private Mixed TVET in Gicumbi, Rwanda" },
       { name: "twitter:description", content: "Public boarding Technical Secondary School in Rutare, Gicumbi District. TVET programs in Building Construction and Public Works (L3–L5)." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/MlRwONO09RaZLh4Ke2bZZTR1W9U2/social-images/social-1778768265982-Screenshot_2026-05-14_161328.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/MlRwONO09RaZLh4Ke2bZZTR1W9U2/social-images/social-1778768265982-Screenshot_2026-05-14_161328.webp" },
     ],
     links: [
       {
