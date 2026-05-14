@@ -6,7 +6,7 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About — College Apegirubuki TSS" },
-      { name: "description", content: "Mission, vision and story of College Apegirubuki TSS, a public boarding TVET school in Rutare, Gicumbi District, Rwanda." },
+      { name: "description", content: "Mission, vision and story of College Apegirubuki TSS, a private mixed TVET school (Day & Boarding) in Rutare, Gicumbi District, Rwanda." },
       { property: "og:title", content: "About — College Apegirubuki TSS" },
       { property: "og:description", content: "Public boarding TVET school in Gicumbi, Rwanda." },
     ],
@@ -25,7 +25,7 @@ function AboutPage() {
             We train the hands<br />that build a nation.
           </h1>
           <p className="mt-6 max-w-2xl text-primary-foreground/80 text-lg">
-            College Apegirubuki TSS is a public boarding Technical Secondary School in Rutare, Gicumbi District, dedicated to producing skilled, disciplined and confident TVET graduates.
+            College Apegirubuki TSS is a private mixed Technical Secondary School (Day & Boarding) in Rutare, Gicumbi District, dedicated to producing skilled, disciplined and confident TVET graduates.
           </p>
         </div>
       </section>
