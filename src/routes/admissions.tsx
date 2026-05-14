@@ -8,7 +8,7 @@ export const Route = createFileRoute("/admissions")({
       { title: "Admissions — College Apegirubuki TSS" },
       { name: "description", content: "How to apply to College Apegirubuki TSS — requirements, process and intake information." },
       { property: "og:title", content: "Admissions — College Apegirubuki TSS" },
-      { property: "og:description", content: "Apply to a leading public boarding TVET school in Gicumbi, Rwanda." },
+      { property: "og:description", content: "Apply to a leading private mixed TVET school (Day & Boarding) in Gicumbi, Rwanda." },
     ],
   }),
   component: AdmissionsPage,

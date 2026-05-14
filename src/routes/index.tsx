@@ -9,7 +9,7 @@ import students from "@/assets/students-life.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "College Apegirubuki TSS — Public Boarding TVET, Gicumbi" },
+      { title: "College Apegirubuki TSS — Private Mixed TVET, Gicumbi" },
       { name: "description", content: "Public boarding Technical Secondary School in Rutare, Gicumbi. TVET in Building Construction & Public Works (L3–L5)." },
     ],
   }),
@@ -30,7 +30,7 @@ function Index() {
         <div className="container-x relative py-28 md:py-40 text-primary-foreground">
           <div className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-deep/40 px-4 py-1.5 text-xs uppercase tracking-[0.2em] text-gold">
             <span className="h-1.5 w-1.5 rounded-full bg-gold animate-pulse" />
-            Public Boarding TSS · Gicumbi
+            Private Mixed TSS · Day & Boarding
           </div>
           <h1 className="mt-6 font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl uppercase leading-[0.95]">
             Build Rwanda.<br />
@@ -74,7 +74,7 @@ function Index() {
         </div>
         <div className="md:col-span-7 text-lg text-foreground/80 leading-relaxed">
           <p>
-            Located in the Rutare sector of Gicumbi District, Northern Province, College Apegirubuki TSS is a public boarding Technical Secondary School committed to empowering young Rwandans with practical skills, discipline, and a pathway to meaningful work.
+            Located in the Rutare sector of Gicumbi District, Northern Province, College Apegirubuki TSS is a private mixed Technical Secondary School (Day & Boarding) committed to empowering young Rwandans with practical skills, discipline, and a pathway to meaningful work.
           </p>
           <p className="mt-5">
             Our students don't just learn — they build. From foundations to finishing, every classroom opens onto a workshop, every workshop opens onto the labor market.
