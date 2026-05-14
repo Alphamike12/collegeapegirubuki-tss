@@ -27,11 +27,12 @@ export function SiteFooter() {
           </ul>
         </div>
         <div>
-          <div className="font-display text-xs uppercase tracking-wider text-gold mb-3">Visit</div>
+          <div className="font-display text-xs uppercase tracking-wider text-gold mb-3">Visit & Contact</div>
           <ul className="space-y-2 text-sm text-primary-foreground/80">
-            <li>Rutare Sector</li>
-            <li>Gicumbi District</li>
+            <li>Rutare Sector, Gicumbi</li>
             <li>Northern Province, Rwanda</li>
+            <li className="pt-2"><a href="tel:+250785082307" className="hover:text-gold">+250 785 082 307</a></li>
+            <li><a href="mailto:apegirubuki10@yahoo.com" className="hover:text-gold break-all">apegirubuki10@yahoo.com</a></li>
             <li className="pt-2"><Link to="/contact" className="text-gold hover:underline">Contact us →</Link></li>
           </ul>
         </div>
