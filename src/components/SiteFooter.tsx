@@ -1,11 +1,15 @@
 import { Link } from "@tanstack/react-router";
+import logo from "@/assets/logo.png";
 
 export function SiteFooter() {
   return (
     <footer className="mt-24 bg-deep text-primary-foreground">
       <div className="container-x py-16 grid gap-10 md:grid-cols-4">
         <div className="md:col-span-2">
-          <div className="font-display text-2xl uppercase">College Apegirubuki TSS</div>
+          <div className="flex items-center gap-4">
+            <img src={logo} alt="College Apegirubuki TSS logo" width={64} height={64} className="h-16 w-16 rounded-lg object-contain bg-cream p-1" />
+            <div className="font-display text-2xl uppercase">College Apegirubuki TSS</div>
+          </div>
           <p className="mt-3 text-sm text-primary-foreground/70 max-w-md">
             A public boarding Technical Secondary School in Rutare, Gicumbi District — building Rwanda's next generation of construction and public works professionals.
           </p>
