@@ -52,8 +52,8 @@ function Index() {
             {[
               ["L3 – L5", "TVET Levels"],
               ["2", "Core Trades"],
-              ["100%", "Boarding"],
-              ["Public", "Government School"],
+              ["Mixed", "Day & Boarding"],
+              ["Private", "Technical School"],
             ].map(([k, v]) => (
               <div key={v} className="bg-deep/70 p-5">
                 <div className="font-display text-2xl text-gold">{k}</div>
