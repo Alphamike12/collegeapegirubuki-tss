@@ -11,10 +11,10 @@ export function SiteFooter() {
             <div className="font-display text-2xl uppercase">College Apegirubuki TSS</div>
           </div>
           <p className="mt-3 text-sm text-primary-foreground/70 max-w-md">
-            A public boarding Technical Secondary School in Rutare, Gicumbi District — building Rwanda's next generation of construction and public works professionals.
+            A private mixed Technical Secondary School (Day & Boarding) in Rutare, Gicumbi District — building Rwanda's next generation of construction and public works professionals.
           </p>
           <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-gold/40 px-4 py-1.5 text-xs uppercase tracking-wider text-gold">
-            <span className="h-1.5 w-1.5 rounded-full bg-gold" /> Accredited TVET · L3 – L5
+            <span className="h-1.5 w-1.5 rounded-full bg-gold" /> TVET · L3 – L5 · Day & Boarding
           </div>
         </div>
         <div>
