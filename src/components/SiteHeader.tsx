@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
+import logo from "@/assets/logo.png";
 
 const nav = [
   { to: "/", label: "Home" },
@@ -16,9 +17,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur">
       <div className="container-x flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-3">
-          <span className="grid h-10 w-10 place-items-center rounded-md bg-primary text-primary-foreground font-display text-sm">
-            AT
-          </span>
+          <img src={logo} alt="College Apegirubuki TSS logo" width={44} height={44} className="h-11 w-11 rounded-md object-contain bg-cream p-0.5 ring-1 ring-border" />
           <span className="hidden sm:block leading-tight">
             <span className="block font-display text-sm uppercase tracking-wide text-primary">College Apegirubuki</span>
             <span className="block text-xs text-muted-foreground">TSS · Rutare, Gicumbi</span>
