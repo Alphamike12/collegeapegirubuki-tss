@@ -75,11 +75,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "College Apegirubuki TSS — Public Boarding TVET in Gicumbi, Rwanda" },
       { name: "description", content: "Public boarding Technical Secondary School in Rutare, Gicumbi District. TVET programs in Building Construction and Public Works (L3–L5)." },
       { name: "author", content: "College Apegirubuki TSS" },
-      { property: "og:title", content: "College Apegirubuki TSS" },
-      { property: "og:description", content: "Public boarding TVET school in Gicumbi, Rwanda — Building Construction & Public Works (L3–L5)." },
+      { property: "og:title", content: "College Apegirubuki TSS — Public Boarding TVET in Gicumbi, Rwanda" },
+      { property: "og:description", content: "Public boarding Technical Secondary School in Rutare, Gicumbi District. TVET programs in Building Construction and Public Works (L3–L5)." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "College Apegirubuki TSS — Public Boarding TVET in Gicumbi, Rwanda" },
+      { name: "twitter:description", content: "Public boarding Technical Secondary School in Rutare, Gicumbi District. TVET programs in Building Construction and Public Works (L3–L5)." },
     ],
     links: [
       {
