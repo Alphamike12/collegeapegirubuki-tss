@@ -121,8 +121,8 @@ function Index() {
 
         <div className="mt-12 grid md:grid-cols-6 gap-5">
           <Feature span="md:col-span-2" title="Hands-on first" body="Workshops, not just whiteboards. Real tools, real projects." />
-          <Feature span="md:col-span-2" title="Residential" body="Boarding facilities focus students on growth, study and brotherhood." />
-          <Feature span="md:col-span-2" title="Public & accessible" body="Government-funded, open to determined learners across Rwanda." />
+          <Feature span="md:col-span-2" title="Day & Boarding" body="Flexible options — boarding facilities for focus, day attendance for nearby students." />
+          <Feature span="md:col-span-2" title="Mixed school" body="Boys and girls learning side by side, building Rwanda together." />
           <Feature span="md:col-span-3" title="Pathway to employment" body="Built around the labor market — graduates leave ready for jobs or self-employment." />
           <Feature span="md:col-span-3" title="Rooted in Gicumbi" body="A green campus in Rutare's hills — calm, focused, and proudly Northern Province." />
         </div>
