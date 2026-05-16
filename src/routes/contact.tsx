@@ -54,6 +54,34 @@ function ContactPage() {
         </form>
       </section>
 
+      <section className="container-x pb-24">
+        <div className="flex items-end justify-between gap-6 flex-wrap mb-6">
+          <div>
+            <div className="text-xs font-display uppercase tracking-[0.3em] text-secondary">Find us</div>
+            <h2 className="mt-2 font-display text-3xl md:text-4xl uppercase text-primary">Campus location</h2>
+          </div>
+          <a
+            href="https://www.google.com/maps/place/photo+apegirubuki+tss/@-1.7277344,30.1780986,17z"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-display text-sm uppercase tracking-wider text-primary hover:text-secondary"
+          >
+            Open in Google Maps →
+          </a>
+        </div>
+        <div className="overflow-hidden rounded-2xl border border-border shadow-lg shadow-deep/10">
+          <iframe
+            title="College Apegirubuki TSS location"
+            src="https://www.google.com/maps?q=-1.7277344,30.1780986&z=17&output=embed"
+            width="100%"
+            height="450"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="block w-full h-[450px] border-0"
+          />
+        </div>
+      </section>
+
       <SiteFooter />
     </div>
   );
