@@ -4,7 +4,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import hero from "@/assets/hero-campus.jpg";
 import construction from "@/assets/program-construction.jpg";
 import publicworks from "@/assets/program-publicworks.jpg";
-import students from "@/assets/students-life.jpg";
+import logo from "@/assets/logo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -130,9 +130,8 @@ function Index() {
 
       {/* CTA */}
       <section className="container-x pb-24">
-        <div className="relative overflow-hidden rounded-2xl bg-deep text-primary-foreground p-10 md:p-16 grid md:grid-cols-2 gap-10 items-center">
-          <img src={students} alt="Students at Apegirubuki" width={1280} height={960} loading="lazy"
-            className="absolute inset-0 h-full w-full object-cover opacity-20" />
+        <div className="relative overflow-hidden rounded-2xl bg-deep text-primary-foreground p-10 md:p-16 grid md:grid-cols-[1fr_auto_1fr] gap-10 items-center">
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,oklch(0.78_0.12_85_/_0.15),transparent_70%)]" />
           <div className="relative">
             <h3 className="font-display text-3xl md:text-5xl uppercase leading-tight">
               Your trade.<br /><span className="text-gold">Your future.</span>
@@ -140,6 +139,11 @@ function Index() {
             <p className="mt-4 text-primary-foreground/80 max-w-md">
               Admissions are open for L3, L4 and L5. Find out how to join the next intake.
             </p>
+          </div>
+          <div className="relative hidden md:flex items-center justify-center">
+            <div className="rounded-full bg-cream p-3 ring-2 ring-gold/40 shadow-2xl shadow-deep/50">
+              <img src={logo} alt="College Apegirubuki TSS logo" width={160} height={160} className="h-32 w-32 lg:h-40 lg:w-40 object-contain" />
+            </div>
           </div>
           <div className="relative md:justify-self-end flex flex-wrap gap-4">
             <Link to="/admissions" className="rounded-md bg-gold px-7 py-3.5 font-display text-sm uppercase tracking-wider text-gold-foreground hover:opacity-90">
