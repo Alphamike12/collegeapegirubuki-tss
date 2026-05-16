@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
-import students from "@/assets/students-life.jpg";
+import logo from "@/assets/logo.png";
 import hero from "@/assets/hero-campus.jpg";
 
 export const Route = createFileRoute("/campus")({
@@ -38,8 +38,8 @@ function CampusPage() {
           <h3 className="font-display text-2xl uppercase text-primary">Boarding</h3>
           <p className="mt-3 text-foreground/80">Comfortable dormitories, supervised study time, and a structured day-to-day rhythm that supports growth.</p>
         </div>
-        <div className="rounded-2xl overflow-hidden">
-          <img src={students} alt="Students" width={1280} height={960} loading="lazy" className="w-full h-full object-cover" />
+        <div className="rounded-2xl overflow-hidden bg-deep flex items-center justify-center p-10 min-h-[260px]">
+          <img src={logo} alt="College Apegirubuki TSS logo" width={220} height={220} loading="lazy" className="h-40 w-40 md:h-52 md:w-52 object-contain rounded-full bg-cream p-3 ring-2 ring-gold/40 shadow-2xl shadow-deep/40" />
         </div>
       </section>
 
